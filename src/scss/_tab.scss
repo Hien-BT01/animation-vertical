@@ -1,0 +1,14 @@
+.tabs{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    min-height: 360px;
+    max-width: 680px;
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px 5px #ccc;
+    display: flex;
+}

@@ -1,0 +1,45 @@
+.tab-content{
+    position:relative;
+    overflow:hidden;
+    width: 100%;
+    padding: 0 4rem;
+    .desc{
+        position:absolute;
+        top: -200%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        width: 100%;
+        padding: 0 3rem;
+        transition: all 0.3s linear;
+        .icon{
+            background-color: #555;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position:absolute;
+            top: -20%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            i{
+                color: #fefefe;
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                font-size: 2.4rem;
+            }
+        }
+        h2{
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        p{
+            font-size: 1.4rem;
+            line-height: 1.5;
+        }
+    }
+    .desc.active{
+        top: 50%;
+    }
+}

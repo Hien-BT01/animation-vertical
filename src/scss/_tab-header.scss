@@ -1,0 +1,27 @@
+.tab-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 180px;
+    border-right: 1px solid #ccc;
+    justify-content: center;
+    div{
+        cursor: pointer;
+        min-height: 50px;
+        line-height: 50px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        padding: 20px 0;
+        color: #888;
+        transition: all 0.3s linear;
+        i{
+            display: inline-block;  
+            margin-right: 0.8rem;
+            pointer-events: none;
+        }
+        &:hover,&.active{
+            color: #00acee;
+        }
+    }
+
+}
